@@ -1,0 +1,26 @@
+Blue Hartsell
+TCP Client:Server Programs
+
+---DESCRIPTION---
+This folder contains a TCP server program as well as a client program. The server program is able to accept multiple clients. The client sends the file line by line to the server, and the server reverses the order of the characters in each line before storing them in a file.
+
+---FILES---
+hw3.tgz: Tar archive of the program files
+tcpClient.c: TCP Client program
+tcpServer.c: TCP Server program
+makefile: Makefile for the program
+
+---INSTRUCTIONS---
+0. In your terminal, navigate to the directory where hw3.tgz is located.
+1. Run the command 'tar tvzf hw3.tgz'
+2. Open a terminal in the newly created folder.
+3. Run the command 'make'
+4. Run the command './tcpServer.c'
+5. Open a new terminal in the program folder.
+6. In your new terminal, run the command './tcpServer.c <filename.txt>' where filename is the name of the file to copy.
+
+---NOTES---
+All the code in this project was designed and written by Charles "Blue" Kent Hartsell III. A significant amount of guidance was taken from:
+https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/
+
+For the purposes of documentation, this archive was zipped with the command 'tar czvf hw3.tgz *'
